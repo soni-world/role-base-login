@@ -13,12 +13,10 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-
     @GetMapping("/test")
     public String getWelcome(){
         return "Welcome Guest";
     }
-
 
     @PostMapping("/signup")
     public String signup(@RequestBody UserInfo userInfo){
