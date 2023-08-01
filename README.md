@@ -22,3 +22,9 @@ Steps to run the application:
  4. finally you will have image created, run the image as 'docker run -p 8080:8080 role-base-login.jar'
  5. Also can find the api documentation on 'http://localhost:8080/api-docs' 
  6. and swagger can be accessed at 'http://localhost:8080/swagger-ui/index.html'
+
+Usage:
+1. Create a USER with ROLE_ADMIN or ROLE_STAFF.
+2. then create schedules for the users with userID.
+3. access, create or delete the schedules and users as per the role access.
+4. Note: can use postman for the api access and as I have used basic auth so need to provide username and password for api accessing in the authorization on postman.
